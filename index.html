@@ -4,30 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <title>Frontend Mentor | News homepage</title>
+  <title>News homepage (author - Laxman)</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
 
-  <header>
-    <nav>
-      <div class="navbar">
-        <div class="desktop-navbar">
-          <img src="./assets/images/logo.svg" alt="branding-logo">
+  <div class="nav-cont">
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="desktop-navbar">
+            <img src="./assets/images/logo.svg" alt="branding-logo">
+          </div>
+          <div class="mobile-navbar">
+            <img src="./assets/images/icon-menu.svg" alt="menu-logo">
+          </div>
+          <div class="nav-second">
+            <a href="/">Home</a>
+            <a href="/">New</a>
+            <a href="/">Popular</a>
+            <a href="/">Trending</a>
+            <a href="/">Categories</a>
+          </div>
         </div>
-        <div class="mobile-navbar">
-          <img src="./assets/images/icon-menu.svg" alt="menu-logo">
-        </div>
-        <div class="nav-second">
-          <a href="/">Home</a>
-          <a href="/">New</a>
-          <a href="/">Popular</a>
-          <a href="/">Trending</a>
-          <a href="/">Categories</a>
-        </div>
+      </nav>
+    </header>
+  </div>
+
+  <div class="open-menu">
+    <div class="mobile-menu">
+      <div class="close">
+        <img src="./assets/images/icon-menu-close.svg" alt="closing-logo">
       </div>
-    </nav>
-  </header>
+  
+      <div class="menu-items">
+        <a href="/">Home</a>
+        <a href="/">New</a>
+        <a href="/">Popular</a>
+        <a href="/">Trending</a>
+        <a href="/">Catagories</a>
+      </div>
+    </div>
+  </div>
+
 
   <main>
     <div class="main-content">
@@ -53,11 +73,11 @@
         </div>
         <div class="sb">
           <h3>New</h3>
-          <div class="sb-dv">
+          <div class="sb-dv-1">
             <h5>Hydrogen VS Electric Cars</h5>
             <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
           </div>
-          <div class="sb-dv">
+          <div class="sb-dv-2">
             <h5>The Downsides of AI Artistry</h5>
             <p>What are the possible adverse effects of on-demand AI image generation?</p>
           </div>
