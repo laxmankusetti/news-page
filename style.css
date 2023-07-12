@@ -218,10 +218,7 @@ p{
         display: flex;
         flex-direction: column;
         transform: scaleX(1);
-    }
-
-    .nav-cont{
-        position: relative;
+        transition: 1s ease-in-out 200ms;
     }
     
     .close{
@@ -241,7 +238,9 @@ p{
     }
 
     .open-menu{
-        display: none;
+        display: block;
+        position: absolute;
+        left: -500px;
     }
 
 }
