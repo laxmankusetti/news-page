@@ -1,5 +1,9 @@
-let mobileHamburgerMenu = document.getElementsByClassName('mobile-navbar')
+function forOpen() {
+    let menu = document.querySelector('#menu')
+    menu.classList.remove('close-menu')
+}
 
-mobileHamburgerMenu.addEventListener('click', function(){
-    document.querySelector('.open-menu').classList.toggle('open-menu')
-})
+function forClose() {
+    let menu = document.querySelector('#menu')
+    menu.classList.remove('mobile-menu')
+}
