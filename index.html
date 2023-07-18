@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>News homepage (author - Laxman)</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
             <img src="./assets/images/logo.svg" alt="branding-logo">
           </div>
           <div class="mobile-navbar">
-            <img src="./assets/images/icon-menu.svg" alt="menu-logo" onclick="forOpen()">
+            <img src="./assets/images/icon-menu.svg" alt="menu-logo" onclick="myFunc1()">
           </div>
           <div class="nav-second">
             <a href="/">Home</a>
@@ -33,9 +33,9 @@
   </div>
 
   <div class="open-menu">
-    <div class="mobile-menu close-menu" id="menu">
+    <div id="menu">
       <div class="close">
-        <img src="./assets/images/icon-menu-close.svg" alt="closing-logo" id="close-icon" onclick="forClose()">
+        <img src="./assets/images/icon-menu-close.svg" alt="closing-logo" id="close-icon" onclick="myFunc2()">
       </div>
   
       <div class="menu-items">

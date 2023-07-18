@@ -1,9 +1,8 @@
-function forOpen() {
-    let menu = document.querySelector('#menu')
-    menu.classList.remove('close-menu')
+function myFunc1() {
+    document.getElementById('menu').classList.add('opened-menu');
+    document.getElementById('menu').classList.remove('closed-menu')
 }
-
-function forClose() {
-    let menu = document.querySelector('#menu')
-    menu.classList.remove('mobile-menu')
+function myFunc2() {
+    document.getElementById('menu').classList.add('closed-menu');
+    document.getElementById('menu').classList.remove('opened-menu')
 }

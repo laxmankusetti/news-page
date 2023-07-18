@@ -142,6 +142,10 @@ p{
     color: hsl(236, 13%, 42%);
 }
 
+.open-menu{
+    display: none;
+}
+
 
 @media screen and (max-width: 480px){
 
@@ -204,18 +208,11 @@ p{
         width: 90%;
         margin: auto;
     }
-
-    .close-menu{
-        position: absolute;
-        left: 60px;
-        width: 100%;
-        height: 100vh;
-        background-color: hsl(36, 100%, 99%);
-        display: flex;
-        flex-direction: column;
+    
+    .open-menu{
+        display: block;
     }
-    
-    
+
     .menu-items{
         display: flex;
         flex-direction: column;
@@ -233,15 +230,28 @@ p{
         left: 80%;
     }
 
-    .mobile-menu{
+    .closed-menu{
         position: absolute;
-        left: 60px;
         width: 100%;
         height: 100vh;
         background-color: hsl(36, 100%, 99%);
         display: flex;
         flex-direction: column;
         left: -500px;
+        top: 0;
+        transition: left 1s ease-in-out;
+    }
+    .opened-menu{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: hsl(36, 100%, 99%);
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        transition: left 1s ease-in-out;
+        margin-left: 60px;
     }
 
 }
