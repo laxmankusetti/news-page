@@ -1,4 +1,5 @@
 function myFunc1() {
+    document.querySelector('.open-menu').style.display = 'block'
     document.getElementById('menu').classList.add('opened-menu');
     document.getElementById('menu').classList.remove('closed-menu')
 }
