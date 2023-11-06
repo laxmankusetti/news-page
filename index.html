@@ -9,45 +9,28 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-
-  <div class="nav-cont">
-    <header>
-      <nav>
-        <div class="navbar">
-          <div class="desktop-navbar">
-            <img src="./assets/images/logo.svg" alt="branding-logo">
-          </div>
-          <div class="mobile-navbar">
-            <img src="./assets/images/icon-menu.svg" alt="menu-logo" onclick="myFunc1()">
-          </div>
-          <div class="nav-second">
-            <a href="/">Home</a>
-            <a href="/">New</a>
-            <a href="/">Popular</a>
-            <a href="/">Trending</a>
-            <a href="/">Categories</a>
-          </div>
-        </div>
-      </nav>
-    </header>
+  <div class="mobile-menu">
+    <img src="./assets/images/icon-menu-close.svg" alt="close-icon" id="close-menu">
+    <a href="/">Home</a>
+    <a href="/">New</a>
+    <a href="/">Popular</a>
+    <a href="/">Trending</a>
+    <a href="/">Categories</a>
   </div>
 
-  <div class="open-menu">
-    <div id="menu">
-      <div class="close">
-        <img src="./assets/images/icon-menu-close.svg" alt="closing-logo" id="close-icon" onclick="myFunc2()">
-      </div>
-  
-      <div class="menu-items">
+  <header>
+    <nav>
+      <img src="./assets/images/logo.svg" alt="logo">
+      <div class="nav-items">
         <a href="/">Home</a>
         <a href="/">New</a>
         <a href="/">Popular</a>
         <a href="/">Trending</a>
-        <a href="/">Catagories</a>
+        <a href="/">Categories</a>
       </div>
-    </div>
-  </div>
-
+      <img src="./assets/images/icon-menu.svg" alt="menu-icon" id="hamburger-menu">
+    </nav>
+  </header>
 
   <main>
     <div class="main-content">

@@ -1,9 +1,6 @@
-function myFunc1() {
-    document.querySelector('.open-menu').style.display = 'block'
-    document.getElementById('menu').classList.add('opened-menu');
-    document.getElementById('menu').classList.remove('closed-menu')
+document.getElementById('hamburger-menu').onclick = function(){
+    document.querySelector('.mobile-menu').classList.add('open')
 }
-function myFunc2() {
-    document.getElementById('menu').classList.add('closed-menu');
-    document.getElementById('menu').classList.remove('opened-menu')
+document.getElementById('close-menu').onclick = function(){
+    document.querySelector('.mobile-menu').classList.remove('open')
 }
